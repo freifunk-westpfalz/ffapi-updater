@@ -25,12 +25,12 @@
 # and updates the node count and lastchange date (UTC) in APIFILE.
 # ------------------------------------------------------------------------------
 # Configuration start
-APIFILE = '../api/FreifunkWestpfalz-api.json'
-NODESFILE = '../ffmap-data/nodes.json'
+APIFILE = '/srv/api/FreifunkWestpfalz-api.json'
+NODESFILE = '/var/freifunk/yanic/data/nodes.json'
 # Configuration end 
 # ------------------------------------------------------------------------------
 
-VERSION = 'V1.1.0'
+VERSION = 'V1.1.1'
 
 import json
 from pprint import pprint
